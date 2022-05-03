@@ -4,7 +4,7 @@
   "description": "studbud",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Not-Juan-D/studbud/issues"
   },
-  "homepage": "https://github.com/Not-Juan-D/studbud#readme"
+  "homepage": "https://github.com/Not-Juan-D/studbud#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }

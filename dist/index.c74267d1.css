@@ -20,19 +20,14 @@ h1, h2, h3, h4, h5 {
   font-family: Roboto Flex, sans-serif;
 }
 
-.grid-item a {
-  color: #000;
-}
-
-.grid-item a:hover {
-  color: #ca2b1e;
-}
-
 h1 {
   text-align: center;
   color: #fff;
+  min-width: 430px;
   background: #000;
   margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 3.052rem;
   font-weight: 700;
 }
@@ -57,24 +52,57 @@ small, .text_small {
   font-size: .8rem;
 }
 
-.grid-container {
+.menu {
+  min-width: 430px;
   background-color: #b8bebe;
-  grid-template-rows: auto auto;
-  grid-template-columns: 400px 400px;
-  place-content: center;
   gap: 10px;
   padding: 10px;
   display: grid;
 }
 
-.grid-item {
-  min-height: 100px;
-  text-align: center;
+.menu-b {
   text-align: center;
   background-color: #f0d89f;
   border: 3px solid #000;
-  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 280px;
   font-size: 30px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a :hover {
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border: 3px solid #000;
+  font-size: 30px;
+  transition: smooth;
+}
+
+@media (min-width: 600px) {
+  .menu {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-b, a :hover {
+    padding-top: 20px;
+    padding-bottom: 350px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .menu {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .menu-b, a :hover {
+    padding-top: 20px;
+    padding-bottom: 600px;
+  }
 }
 
 /*# sourceMappingURL=index.c74267d1.css.map */

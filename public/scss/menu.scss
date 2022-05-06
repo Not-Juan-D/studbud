@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-content: center;
+  background-color: #b8bebe;
+  padding: 10px;
+  gap: 10px;
+  }
+
+.grid-item {
+  background-color: #f0d89f;
+  border: 3px solid black;
+  min-height: 100px;
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+}

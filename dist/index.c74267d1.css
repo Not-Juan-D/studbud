@@ -12,7 +12,7 @@ body {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5 {
 h1 {
   text-align: center;
   color: #fff;
-  min-width: 430px;
+  min-width: 500px;
   background: #000;
   margin: 0;
   padding-top: 10px;
@@ -50,6 +50,54 @@ h5 {
 
 small, .text_small {
   font-size: .8rem;
+}
+
+.cov {
+  min-width: 500px;
+  grid-template-columns: 250px 250px;
+  place-content: center;
+  margin-top: 20px;
+  display: grid;
+}
+
+.cov-qul {
+  text-align: center;
+  background-color: #f0d89f;
+  border-bottom: 5px solid #000;
+  border-right: 5px solid #000;
+  padding-top: 20px;
+  padding-bottom: 200px;
+  font-size: 20px;
+}
+
+.cov-qur {
+  text-align: center;
+  background-color: #f0d89f;
+  border-bottom: 5px solid #000;
+  border-left: 5px solid #000;
+  padding-top: 20px;
+  padding-bottom: 200px;
+  font-size: 20px;
+}
+
+.cov-qdl {
+  text-align: center;
+  background-color: #f0d89f;
+  border-top: 5px solid #000;
+  border-right: 5px solid #000;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.cov-qdr {
+  text-align: center;
+  background-color: #f0d89f;
+  border-top: 5px solid #000;
+  border-left: 5px solid #000;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  font-size: 20px;
 }
 
 .menu {

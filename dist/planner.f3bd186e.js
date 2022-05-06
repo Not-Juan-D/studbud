@@ -1,4 +1,4 @@
-// code referenced from week 6 tutorial content - source: https://replit.com/@robdongas/InteractiveTaskList
+// reference code from week 6 tutorial content - source: https://replit.com/@robdongas/InteractiveTaskList
 const form = document.getElementById("taskform");
 const button = document.querySelector("#taskform > button");
 var taskInput = document.getElementById("taskInput");

@@ -1,3 +1,5 @@
+// reference code from week 6 tutorial content - source: https://replit.com/@robdongas/InteractiveTaskList
+
 // Setting up variables for our HTML elements using DOM selection
 const form = document.getElementById("taskform");
 const button = document.querySelector("#taskform > button"); // Complex CSS query

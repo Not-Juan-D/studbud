@@ -54,7 +54,7 @@ small, .text_small {
 
 .cov {
   min-width: 500px;
-  grid-template-columns: 250px 250px;
+  grid-template-columns: 300px 300px;
   place-content: center;
   margin-top: 20px;
   display: grid;
@@ -66,7 +66,7 @@ small, .text_small {
   border-bottom: 5px solid #000;
   border-right: 5px solid #000;
   padding-top: 20px;
-  padding-bottom: 200px;
+  padding-bottom: 160px;
   font-size: 20px;
 }
 
@@ -76,7 +76,7 @@ small, .text_small {
   border-bottom: 5px solid #000;
   border-left: 5px solid #000;
   padding-top: 20px;
-  padding-bottom: 200px;
+  padding-bottom: 160px;
   font-size: 20px;
 }
 
@@ -85,7 +85,7 @@ small, .text_small {
   background-color: #f0d89f;
   border-top: 5px solid #000;
   border-right: 5px solid #000;
-  padding-top: 200px;
+  padding-top: 160px;
   padding-bottom: 20px;
   font-size: 20px;
 }
@@ -95,7 +95,7 @@ small, .text_small {
   background-color: #f0d89f;
   border-top: 5px solid #000;
   border-left: 5px solid #000;
-  padding-top: 200px;
+  padding-top: 160px;
   padding-bottom: 20px;
   font-size: 20px;
 }
@@ -117,6 +117,29 @@ small, .text_small {
   font-size: 30px;
 }
 
+#hide {
+  width: 100%;
+  text-align: center;
+  background-color: #add8e6;
+  margin-top: 20px;
+  padding: 50px 0;
+}
+
+.addnew {
+  text-align: center;
+  background-color: #f0d89f;
+  border: 2px solid #000;
+  margin: auto;
+  padding: 15px 100px;
+  font-size: 16px;
+  transition-duration: .3s;
+}
+
+.addnew:hover {
+  color: #fff;
+  background-color: #000;
+}
+
 a {
   color: #000;
   text-decoration: none;
@@ -128,7 +151,7 @@ a :hover {
   background-color: #000;
   border: 3px solid #000;
   font-size: 30px;
-  transition: smooth;
+  transition-duration: .3s;
 }
 
 @media (min-width: 400px) {
@@ -151,17 +174,6 @@ a :hover {
     padding-top: 20px;
     padding-bottom: 600px;
   }
-}
-
-.addnewbutt {
-  text-align: center;
-  background-color: #4caf50;
-  border: none;
-  margin: 4px 2px;
-  padding: 15px 32px;
-  font-size: 16px;
-  text-decoration: none;
-  display: inline-block;
 }
 
 /*# sourceMappingURL=index.c74267d1.css.map */

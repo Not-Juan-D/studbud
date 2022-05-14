@@ -1,3 +1,6 @@
+<!-- stopwatch codes referenced from https://jsfiddle.net/2vwcd3a8/ 
+source found on discussion below https://dev.to/gspteck/create-a-stopwatch-in-javascript-2mak -->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,43 +12,15 @@
   </head>
   <body>
     <section id = stopwatch>
-    <form id="taskform">
-      <label for="task">Task:</label>
-      <input type="text" name="task" id="taskInput">
-
-      <br>
-    <!-- Date input -->
-      <label for="dueDate">Due Date: </label>
-      <input type="date" name="dueDate" id="dueDateInput">
-      <br>
-    <!-- Time input -->
-    <label for="completionTime">Completion Time: </label>
-      <input type="time" name="completionTime" id="completionTimeInput">
-
-      <br>
-
-    <label for="estimatedTime">Estimated completion time (in mins):</label>
-    <input type="number" name="estimatedTime" id="estimatedTimeInput">
-    <!-- Priority -->
-    <br>
-
-    <label for="priority">Task Priority:</label>
-    <select name="prority" id="priorityInput">
-      <option value="">Select one</option>
-      <option value="Low">Low</option>
-      <option value="Medium">Medium</option>
-      <option value="High">High</option>
-    </select>
-
-    <br>
-
-      <button type="submit">Submit</button>
-    </form>
-    <ul id="tasklist">
-    </ul>
-    <script src="script.js"></script>
-    <!-- Swap the scripts to see the working solution -->
-    <!-- <script src="solution.js"></script> -->
+      <div class="container">
+        <div id="time"><time>00:00:00</time></div>
+        <div class="btns-container">
+          <button id="start_btn" onclick="start()">START</button>
+          <button id="pause_btn" onclick="pause()">PAUSE</button>
+          <button id="reset_btn" onclick="reset()">RESET</button>
+        </div>
+      </div>
     </section>
+    <script src="stopwatch.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-// reference code from week 6 tutorial content - source: https://replit.com/@robdongas/InteractiveTaskList
+// reference code from tutorial content
 
 
 function hideFunction() {
@@ -36,12 +36,13 @@ button.addEventListener("click", function(event) {
 // Create an empty array to store our tasks
 var taskList = [];
 
-function addTask(taskDescription, createdDate, dueDate, priorityRating, estimatedTime, completionStatus) {
+function addTask(taskDescription, createdDate, dueDate, priorityRating, urgencyRating, estimatedTime, completionStatus) {
   let task = {
     taskDescription,
     createdDate,
     dueDate,
     priorityRating,
+    urgencyRating,
     estimatedTime,
     completionStatus
   };
